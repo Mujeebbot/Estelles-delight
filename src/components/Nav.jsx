@@ -46,7 +46,15 @@ export default function Nav() {
 
     updateNav()
     window.addEventListener('scroll', updateNav, { passive: true })
-    return () => window.removeEventListener('scroll', updateNav)
+
+    // Close mobile menu on scroll
+    const closeOnScroll = () => setMenuOpen(false)
+    window.addEventListener('scroll', closeOnScroll, { passive: true })
+
+    return () => {
+      window.removeEventListener('scroll', updateNav)
+      window.removeEventListener('scroll', closeOnScroll)
+    }
   }, [])
 
   return (
