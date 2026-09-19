@@ -39,8 +39,23 @@ export default function Flavours() {
                 <div className="ft-list">{f.items.join(' · ')}</div>
               </div>
             ))}
-            <div style={{ marginTop: 36, fontSize: 14, color: 'rgba(251,245,234,0.6)' }}>
-              Small bag (100g): $10 &nbsp;·&nbsp; Big tub: $60
+            <div style={{
+              marginTop: 32,
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: 10,
+              padding: '10px 18px',
+              borderRadius: 999,
+              background: 'rgba(43, 27, 18, 0.05)',
+              border: '1px solid rgba(43, 27, 18, 0.09)',
+              fontSize: 14,
+              fontWeight: 500,
+              color: 'var(--espresso)',
+              width: 'fit-content',
+            }}>
+              <span>Small bag (100g): <strong style={{ color: 'var(--tangerine-deep)' }}>$10</strong></span>
+              <span style={{ opacity: 0.35 }}>·</span>
+              <span>Big tub: <strong style={{ color: 'var(--tangerine-deep)' }}>$60</strong></span>
             </div>
           </Reveal>
 
