@@ -1,6 +1,6 @@
 import Reveal from './Reveal.jsx'
 import chinchinBlackBg from '../assets/images/chinchin-black-bg.webp'
-import patternSnacks from '../assets/images/pattern-snacks.png'
+import patternSnacks from '../assets/images/pattern-snacks.webp'
 
 const items = [
   {

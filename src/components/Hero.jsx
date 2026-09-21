@@ -2,8 +2,8 @@ import decoFrame from '../assets/images/deco-frame.webp'
 import waveTexture from '../assets/images/wave-texture.webp'
 import gradientGlow from '../assets/images/gradient-glow.webp'
 import chinchinBlackBg from '../assets/images/chinchin-black-bg.webp'
-import snackChinchin from '../assets/images/snack-chinchin-circle.png'
-import snackPuffpuff from '../assets/images/snack-puffpuff-circle.png'
+import snackChinchin from '../assets/images/snack-chinchin-circle.webp'
+import snackPuffpuff from '../assets/images/snack-puffpuff-circle.webp'
 
 export default function Hero() {
   return (

@@ -3,11 +3,11 @@ import waveTexture from '../assets/images/wave-texture.webp'
 import cateringPlatter from '../assets/images/catering-platter.webp'
 import cateringSpread from '../assets/images/catering-spread.webp'
 import eventFavors from '../assets/images/event-favors.webp'
-import smallchopsBagsSingle from '../assets/images/smallchops-bags-single.jpg'
-import smallchopsBagsBulk from '../assets/images/smallchops-bags-bulk.jpg'
-import cateringBoxFull from '../assets/images/catering-box-full.png'
-import cateringBoxesMulti from '../assets/images/catering-boxes-multi.jpg'
-import puffpuffStrawberry from '../assets/images/puffpuff-strawberry.jpg'
+import smallchopsBagsSingle from '../assets/images/smallchops-bags-single.webp'
+import smallchopsBagsBulk from '../assets/images/smallchops-bags-bulk.webp'
+import cateringBoxFull from '../assets/images/catering-box-full.webp'
+import cateringBoxesMulti from '../assets/images/catering-boxes-multi.webp'
+import puffpuffStrawberry from '../assets/images/puffpuff-strawberry.webp'
 
 export default function Catering({ onImageClick }) {
   return (

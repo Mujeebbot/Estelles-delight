@@ -1,6 +1,6 @@
 import Reveal from './Reveal.jsx'
 import chinchinCleanRed from '../assets/images/chinchin-clean-red.webp'
-import patternSnacks from '../assets/images/pattern-snacks.png'
+import patternSnacks from '../assets/images/pattern-snacks.webp'
 
 export default function Intro() {
   return (

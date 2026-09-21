@@ -4,7 +4,7 @@ import piesTray3 from '../assets/images/pies-tray-3.webp'
 import puffpuffPiesBoxes from '../assets/images/puffpuff-pies-boxes.webp'
 import smallchopsHandheld from '../assets/images/smallchops-handheld.webp'
 import drinksRefreshCans from '../assets/images/drinks-refresh-cans.webp'
-import chickenTray from '../assets/images/chicken-tray.jpg'
+import chickenTray from '../assets/images/chicken-tray.webp'
 
 const cards = [
   {

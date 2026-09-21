@@ -435,6 +435,23 @@ export function CinematicFooter() {
       letterSpacing: "0.15em",
       textTransform: "uppercase",
     },
+    contactLine: {
+      marginTop: 4,
+      display: "flex",
+      flexWrap: "wrap",
+      alignItems: "center",
+      justifyContent: "center",
+      gap: 10,
+      fontSize: 13,
+      color: "rgba(251,245,234,0.5)",
+    },
+    contactLine_link: {
+      color: "rgba(251,245,234,0.75)",
+      fontWeight: 600,
+    },
+    contactLine_dot: {
+      opacity: 0.4,
+    },
     madeBadge: {
       padding: "12px 24px",
       borderRadius: 999,
@@ -551,6 +568,15 @@ export function CinematicFooter() {
                 >
                   TikTok
                 </MagneticButton>
+              </div>
+
+              {/* Plain-text contact details, visible for anyone (and search engines) that just want the raw info */}
+              <div style={s.contactLine}>
+                <a href="tel:+61426921991" style={s.contactLine_link}>+61 426 921 991</a>
+                <span style={s.contactLine_dot}>·</span>
+                <a href="mailto:estelledelight@gmail.com" style={s.contactLine_link}>estelledelight@gmail.com</a>
+                <span style={s.contactLine_dot}>·</span>
+                <span>Perth, Western Australia</span>
               </div>
             </div>
           </div>

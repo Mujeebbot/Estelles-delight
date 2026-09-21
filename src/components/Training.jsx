@@ -1,5 +1,5 @@
 import Reveal from './Reveal.jsx'
-import patternSnacks from '../assets/images/pattern-snacks.png'
+import patternSnacks from '../assets/images/pattern-snacks.webp'
 
 export default function Training() {
   return (
